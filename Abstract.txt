@@ -1,0 +1,11 @@
+Abstract:
+
+Predicting graduate admission probabilities is a crucial task in the realm of higher education. In this project, we employ a Linear Regression Machine Learning model to develop a predictive system that estimates the probability of a student's admission to a graduate program based on various relevant features. These features include GRE scores, TOEFL scores, CGPA (Cumulative Grade Point Average), University Ranking, Statement of Purpose (SOP) quality, Letter of Recommendation (LOR) strength, and Research Publication Status. Our objective is to provide prospective graduate applicants with a tool that can assist them in understanding their likelihood of admission and aid educational institutions in making informed decisions during the admissions process.
+
+We collected a comprehensive dataset containing information from past applicants, including their GRE scores, TOEFL scores, CGPA, university rankings, SOP and LOR scores, and research publication status, along with their admission outcomes. We preprocessed the data, including handling missing values and normalizing features, to ensure the model's accuracy and reliability.
+
+Through rigorous model training and evaluation, we determined that a Linear Regression model was well-suited for this predictive task. The model effectively captures the relationships between the input features and the probability of admission, providing transparency and interpretability. We assessed its performance using various evaluation metrics, such as Mean Squared Error (MSE), Root Mean Squared Error (RMSE), and R-squared (R²), to ensure its predictive accuracy.
+
+Our results demonstrate that the developed Linear Regression model provides valuable insights into the admission process, offering applicants a preliminary estimate of their admission chances. Additionally, it helps universities in streamlining their admissions procedures by identifying key factors that contribute significantly to admission decisions.
+
+In conclusion, this project showcases the application of Machine Learning techniques, particularly Linear Regression, in predicting graduate admission probabilities. The model's accuracy and interpretability make it a valuable tool for both prospective students and academic institutions, aiding them in making informed decisions and optimizing the graduate admission process.
