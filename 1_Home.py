@@ -55,7 +55,7 @@ with st.container():
 
         """
     )
-    lottie_animation=load_lottiefile(r"C:\Users\Dr. Vikash Thada\Documents\Admission Prediction\lottiefiles/BearRocket.json")
+    lottie_animation=load_lottiefile("lottiefiles/BearRocket.json")
     with animation_col:
         st.lottie(
             lottie_animation,

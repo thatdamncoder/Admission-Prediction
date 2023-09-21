@@ -22,22 +22,6 @@ page_bg="""
 st.markdown(page_bg,unsafe_allow_html=True)
 
 
-#with st.container():
-#   selected= option_menu(
-#        menu_title="Website",
-#        options=["Home","Prediction","Result","About"],
-#        default_index=1,
-#        orientation="horizontal",
-#    )
-#    if selected=="Home":
-#        switch_page("Home")
-#    if selected=="Prediction":
-#       switch_page("Prediction")
-#    if selected=="Result":   
-#        switch_page("Result") 
-#    if selected=="About":
-#        switch_page("About")
-
 
 linreg=joblib.load('GAP LinReg')
 scaler=joblib.load('Scaler')
