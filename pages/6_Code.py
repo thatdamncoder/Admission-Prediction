@@ -16,7 +16,7 @@ with tab1:
         st.image("https://static.streamlit.io/examples/owl.jpg", width=200)
     with col2:
         st.header("Python Training Code")
-        with open("MLCode.txt",encoding="utf8") as f:
+        with open("MLCode.txt",'r',encoding='utf-8') as f:
             code = f.read()
             st.code(code,language="python")
 
@@ -26,7 +26,7 @@ with tab2:
         st.image("https://static.streamlit.io/examples/owl.jpg", width=200)
     with col2:
         st.header("The Home Page")
-        with open("1_Home.py", encoding="utf8") as f:
+        with open("1_Home.py", 'r',encoding='utf-8') as f:
             code = f.read()
             st.code(code)
    
@@ -36,7 +36,7 @@ with tab3:
         st.image("https://static.streamlit.io/examples/owl.jpg", width=200)
     with col2:
         st.header("The Prediction Page")
-        with open("pages/3_Prediction.py", encoding="utf8") as f:
+        with open("pages/3_Prediction.py", 'r',encoding='utf-8') as f:
             code = f.read()
             st.code(code)
 
@@ -47,7 +47,7 @@ with tab4:
         st.image("https://static.streamlit.io/examples/owl.jpg", width=200)
     with col2:
         st.header("The Result Page")
-        with open("pages/4_Result.py", encoding="utf8") as f:
+        with open("pages/4_Result.py", 'r',encoding='utf-8') as f:
             code = f.read()
             st.code(code)
             
@@ -57,7 +57,7 @@ with tab5:
         st.image("https://static.streamlit.io/examples/owl.jpg", width=200)
     with col2:
         st.header("The About Page")
-        with open("pages/8_About.py", encoding="utf8") as f:
+        with open("pages/8_About.py", 'r',encoding='utf-8') as f:
             code = f.read()
             st.code(code)
 
@@ -67,7 +67,7 @@ with tab6:
         st.image("https://static.streamlit.io/examples/owl.jpg", width=200)
     with col2:
         st.header("The Code Page (you're on this page)")
-        with open("pages/6_Code.py", encoding="utf8") as f:
+        with open("pages/6_Code.py", 'r',encoding='utf-8') as f:
             code = f.read()
             st.code(code)
 
@@ -77,7 +77,7 @@ with tab7:
         st.image("https://static.streamlit.io/examples/owl.jpg", width=200)
     with col2:
         st.header("The Dataset Page")
-        with open("pages/7_Dataset.py", encoding="utf8") as f:
+        with open("pages/7_Dataset.py", 'r',encoding='utf-8') as f:
             code = f.read()
             st.code(code)
 
