@@ -1,5 +1,4 @@
 slider- university rating
 show dataset
-show graphs
 multipage
 success bar
