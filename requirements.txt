@@ -3,3 +3,9 @@ requests
 streamlit_extras
 streamlit_option_menu
 pandas
+joblib
+streamlit_lottie
+time
+json
+scikit_learn
+
