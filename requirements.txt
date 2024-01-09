@@ -5,6 +5,5 @@ streamlit_option_menu
 pandas
 joblib
 streamlit_lottie
-json
 scikit_learn
 
