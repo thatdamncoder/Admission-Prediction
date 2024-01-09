@@ -1,4 +1,5 @@
 streamlit
 requests
 streamlit_extras
+streamlit_option_menu
 pandas
