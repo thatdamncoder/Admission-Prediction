@@ -13,11 +13,11 @@ TheGrads is a machine learning-powered graduate admission prediction web applica
 - **Dataset**: Access the Graduate Admissions Prediction Kaggle dataset for detailed admission features.
 - **Code**: Explore the codebase used for model training and prediction.
 - **References**: Find useful references for further learning and understanding.
-- **Deployment**: Hosted on Streamlit, accessible via [link].
+- **Deployment**: Hosted on Streamlit, accessible via [https://admission-prediction.streamlit.app/].
 
 ## How to Use
 
-1. Visit [link] to access TheGrads web application.
+1. Visit [https://admission-prediction.streamlit.app/] to access TheGrads web application.
 2. Enter your GRE scores, TOEFL scores, CGPA, university rankings, SOP and LOR scores, and research publication status.
 3. Receive an instant prediction on the probability of your admission into UCLA.
 4. Explore the dataset, code, and references for further insights.
